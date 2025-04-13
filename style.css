@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Lato', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,6 +10,7 @@ header {
     color: white;
     text-align: center;
     padding: 1em 0;
+    font-family: 'Playfair Display', serif;
 }
 
 main {
@@ -24,47 +25,24 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+    font-family: 'Playfair Display', serif;
 }
 
 #about img {
-    max-width: 200px;
+    max-width: 100%;
+    height: auto;
     border-radius: 50%;
 }
 
-.slideshow-container {
-    position: relative;
-    max-width: 1000px;
-    margin: auto;
+.scaled-image {
+    width: 300px;
+    height: auto;
 }
 
-.mySlides {
-    display: none;
+h1, h2 {
+    font-family: 'Playfair Display', serif;
 }
 
-img {
-    vertical-align: middle;
-}
-
-.fade {
-    animation-name: fade;
-    animation-duration: 1.5s;
-}
-
-@keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
-}
-
-.dot {
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-}
-
-.active {
-    background-color: #717171;
+p {
+    font-family: 'Lato', sans-serif;
 }
